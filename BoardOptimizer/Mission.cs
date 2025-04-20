@@ -8,32 +8,17 @@ namespace BoardOptimizer
 {
 	internal class Mission
 	{
-		private string name;
-		private int id;
-		private string[,] instructions;
-		private bool is_enabled;
-		private string start_time;
+		public string name;
+		public int id;
+		public string[,] instructions;
+		public bool is_enabled;
+		public string start_time;
 		public enum status { Success, Fail, Running, Stopped};
-		private status st;
+		public status st;
 
 		public Mission(string name)
 		{
 			this.name = name;
-		}
-
-		public string getName()
-		{
-			return name;
-		}
-
-		public int getId()
-		{
-			return id;
-		}
-
-		public status getStatus()
-		{
-			return st;
 		}
 
 		public void start()
@@ -48,13 +33,12 @@ namespace BoardOptimizer
 
 		public void enableMission()
 		{
-			if()
 			is_enabled = true;
 		}
 
 		public void disableMission()
 		{
-			if (getStatus() == status.Running)
+			if (st == status.Running)
 				stop();
 			is_enabled=false;
 		}
