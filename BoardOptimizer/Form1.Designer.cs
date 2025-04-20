@@ -1,6 +1,6 @@
 ﻿namespace BoardOptimizer
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,7 +28,7 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
 			button1 = new Button();
 			textBox1 = new TextBox();
 			SuspendLayout();
@@ -45,13 +45,13 @@
 			resources.ApplyResources(textBox1, "textBox1");
 			textBox1.Name = "textBox1";
 			// 
-			// Form1
+			// MainForm
 			// 
 			resources.ApplyResources(this, "$this");
 			AutoScaleMode = AutoScaleMode.Font;
 			Controls.Add(textBox1);
 			Controls.Add(button1);
-			Name = "Form1";
+			Name = "MainForm";
 			ResumeLayout(false);
 			PerformLayout();
 		}
