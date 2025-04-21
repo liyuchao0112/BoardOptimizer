@@ -16,6 +16,15 @@ namespace BoardOptimizer
 			options.IncludeFields = true;
 			string jsonString = JsonSerializer.Serialize(x, options);
 			File.WriteAllText(fp, jsonString);
-		}	
+		}
+
+		public static Object jsonFromFile<Object>(string fp)
+		{
+			string jsonString = File.ReadAllText(fp);
+			JsonSerializerOptions options = new JsonSerializerOptions();
+			options.IncludeFields = true;
+			Object x = JsonSerializer.Deserialize<Object>(jsonString, options);
+			return x;
+		}
 	}
 }

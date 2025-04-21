@@ -15,32 +15,5 @@ namespace BoardOptimizer
 		public string start_time;
 		public enum status { Success, Fail, Running, Stopped};
 		public status st;
-
-		public Mission(string name)
-		{
-			this.name = name;
-		}
-
-		public void start()
-		{
-			
-		}
-
-		public void stop()
-		{
-			
-		}
-
-		public void enableMission()
-		{
-			is_enabled = true;
-		}
-
-		public void disableMission()
-		{
-			if (st == status.Running)
-				stop();
-			is_enabled=false;
-		}
 	}
 }
