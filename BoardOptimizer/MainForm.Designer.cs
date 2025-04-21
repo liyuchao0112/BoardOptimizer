@@ -35,11 +35,12 @@
 			label1 = new Label();
 			MissionList = new ListBox();
 			groupBox1 = new GroupBox();
+			checkBox_regular = new CheckBox();
 			checkBox_enabled = new CheckBox();
 			MenuTabControl = new TabControl();
 			MainNotifyIcon = new NotifyIcon(components);
 			MainNotifyContextMenuStip = new ContextMenuStrip(components);
-			退出ToolStripMenuItem = new ToolStripMenuItem();
+			ToolStripMenuItem_exit = new ToolStripMenuItem();
 			MissionPage.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
 			splitContainer1.Panel1.SuspendLayout();
@@ -84,10 +85,17 @@
 			// 
 			// groupBox1
 			// 
+			groupBox1.Controls.Add(checkBox_regular);
 			groupBox1.Controls.Add(checkBox_enabled);
 			resources.ApplyResources(groupBox1, "groupBox1");
 			groupBox1.Name = "groupBox1";
 			groupBox1.TabStop = false;
+			// 
+			// checkBox_regular
+			// 
+			resources.ApplyResources(checkBox_regular, "checkBox_regular");
+			checkBox_regular.Name = "checkBox_regular";
+			checkBox_regular.UseVisualStyleBackColor = true;
 			// 
 			// checkBox_enabled
 			// 
@@ -104,19 +112,21 @@
 			// 
 			// MainNotifyIcon
 			// 
+			MainNotifyIcon.ContextMenuStrip = MainNotifyContextMenuStip;
 			resources.ApplyResources(MainNotifyIcon, "MainNotifyIcon");
 			MainNotifyIcon.MouseDoubleClick += MainNotifyIcon_MouseDoubleClick;
 			// 
 			// MainNotifyContextMenuStip
 			// 
-			MainNotifyContextMenuStip.Items.AddRange(new ToolStripItem[] { 退出ToolStripMenuItem });
+			MainNotifyContextMenuStip.Items.AddRange(new ToolStripItem[] { ToolStripMenuItem_exit });
 			MainNotifyContextMenuStip.Name = "MainNotifyContextMenuStip";
 			resources.ApplyResources(MainNotifyContextMenuStip, "MainNotifyContextMenuStip");
 			// 
-			// 退出ToolStripMenuItem
+			// ToolStripMenuItem_exit
 			// 
-			退出ToolStripMenuItem.Name = "退出ToolStripMenuItem";
-			resources.ApplyResources(退出ToolStripMenuItem, "退出ToolStripMenuItem");
+			ToolStripMenuItem_exit.Name = "ToolStripMenuItem_exit";
+			resources.ApplyResources(ToolStripMenuItem_exit, "ToolStripMenuItem_exit");
+			ToolStripMenuItem_exit.Click += ToolStripMenuItem_exit_Click;
 			// 
 			// MainForm
 			// 
@@ -149,6 +159,7 @@
 		private CheckBox checkBox_enabled;
 		private NotifyIcon MainNotifyIcon;
 		private ContextMenuStrip MainNotifyContextMenuStip;
-		private ToolStripMenuItem 退出ToolStripMenuItem;
+		private ToolStripMenuItem ToolStripMenuItem_exit;
+		private CheckBox checkBox_regular;
 	}
 }

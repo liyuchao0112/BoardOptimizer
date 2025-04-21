@@ -24,9 +24,14 @@ namespace BoardOptimizer
 
 		private void MainNotifyIcon_MouseDoubleClick(object sender, MouseEventArgs e)
 		{
-			this.MainNotifyIcon.Visible=false;
+			this.MainNotifyIcon.Visible = false;
 			this.Show();
 			this.WindowState = FormWindowState.Normal;
+		}
+
+		private void ToolStripMenuItem_exit_Click(object sender, EventArgs e)
+		{
+			Application.Exit();
 		}
 	}
 }
