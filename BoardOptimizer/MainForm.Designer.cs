@@ -40,6 +40,7 @@
 			MainNotifyIcon = new NotifyIcon(components);
 			MainNotifyContextMenuStip = new ContextMenuStrip(components);
 			退出ToolStripMenuItem = new ToolStripMenuItem();
+			checkBox_regular = new CheckBox();
 			MissionPage.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
 			splitContainer1.Panel1.SuspendLayout();
@@ -84,6 +85,7 @@
 			// 
 			// groupBox1
 			// 
+			groupBox1.Controls.Add(checkBox_regular);
 			groupBox1.Controls.Add(checkBox_enabled);
 			resources.ApplyResources(groupBox1, "groupBox1");
 			groupBox1.Name = "groupBox1";
@@ -118,6 +120,12 @@
 			退出ToolStripMenuItem.Name = "退出ToolStripMenuItem";
 			resources.ApplyResources(退出ToolStripMenuItem, "退出ToolStripMenuItem");
 			// 
+			// checkBox_regular
+			// 
+			resources.ApplyResources(checkBox_regular, "checkBox_regular");
+			checkBox_regular.Name = "checkBox_regular";
+			checkBox_regular.UseVisualStyleBackColor = true;
+			// 
 			// MainForm
 			// 
 			resources.ApplyResources(this, "$this");
@@ -150,5 +158,6 @@
 		private NotifyIcon MainNotifyIcon;
 		private ContextMenuStrip MainNotifyContextMenuStip;
 		private ToolStripMenuItem 退出ToolStripMenuItem;
+		private CheckBox checkBox_regular;
 	}
 }

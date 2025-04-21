@@ -198,6 +198,33 @@
   <data name="&gt;&gt;splitContainer1.Panel1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="checkBox_regular.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_regular.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 53</value>
+  </data>
+  <data name="checkBox_regular.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 24</value>
+  </data>
+  <data name="checkBox_regular.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="checkBox_regular.Text" xml:space="preserve">
+    <value>定期执行</value>
+  </data>
+  <data name="&gt;&gt;checkBox_regular.Name" xml:space="preserve">
+    <value>checkBox_regular</value>
+  </data>
+  <data name="&gt;&gt;checkBox_regular.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_regular.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBox_regular.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="checkBox_enabled.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -223,7 +250,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;checkBox_enabled.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft YaHei UI, 10pt</value>
