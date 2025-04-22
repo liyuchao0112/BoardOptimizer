@@ -128,6 +128,12 @@
 			resources.ApplyResources(ToolStripMenuItem_exit, "ToolStripMenuItem_exit");
 			ToolStripMenuItem_exit.Click += ToolStripMenuItem_exit_Click;
 			// 
+			// checkBox_regular
+			// 
+			resources.ApplyResources(checkBox_regular, "checkBox_regular");
+			checkBox_regular.Name = "checkBox_regular";
+			checkBox_regular.UseVisualStyleBackColor = true;
+			// 
 			// MainForm
 			// 
 			resources.ApplyResources(this, "$this");
