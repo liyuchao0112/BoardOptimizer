@@ -10,7 +10,11 @@ namespace BoardOptimizer
 	{
 		public Mission[] missions;
 
-		public void init(Mission[] missions)
+		public MissionManager()
+		{
+		}
+
+		public MissionManager(Mission[] missions)
 		{
 			this.missions = missions;
 		}

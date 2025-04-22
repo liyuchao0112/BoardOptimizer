@@ -32,6 +32,7 @@
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
 			MissionPage = new TabPage();
 			splitContainer1 = new SplitContainer();
+			buttonAddMission = new Button();
 			label1 = new Label();
 			MissionList = new ListBox();
 			groupBox1 = new GroupBox();
@@ -65,12 +66,20 @@
 			// 
 			// splitContainer1.Panel1
 			// 
+			splitContainer1.Panel1.Controls.Add(buttonAddMission);
 			splitContainer1.Panel1.Controls.Add(label1);
 			splitContainer1.Panel1.Controls.Add(MissionList);
 			// 
 			// splitContainer1.Panel2
 			// 
 			splitContainer1.Panel2.Controls.Add(groupBox1);
+			// 
+			// buttonAddMission
+			// 
+			resources.ApplyResources(buttonAddMission, "buttonAddMission");
+			buttonAddMission.Name = "buttonAddMission";
+			buttonAddMission.UseVisualStyleBackColor = true;
+			buttonAddMission.Click += buttonAddMission_Click;
 			// 
 			// label1
 			// 
@@ -161,5 +170,6 @@
 		private ContextMenuStrip MainNotifyContextMenuStip;
 		private ToolStripMenuItem ToolStripMenuItem_exit;
 		private CheckBox checkBox_regular;
+		private Button buttonAddMission;
 	}
 }

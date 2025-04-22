@@ -33,5 +33,10 @@ namespace BoardOptimizer
 		{
 			Application.Exit();
 		}
+
+		private void buttonAddMission_Click(object sender, EventArgs e)
+		{
+
+		}
 	}
 }

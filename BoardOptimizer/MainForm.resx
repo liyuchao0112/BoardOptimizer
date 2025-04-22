@@ -125,7 +125,34 @@
   <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
   </data>
+  <data name="buttonAddMission.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 12pt</value>
+  </data>
+  <data name="buttonAddMission.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 3</value>
+  </data>
+  <data name="buttonAddMission.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 26</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonAddMission.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="buttonAddMission.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="&gt;&gt;buttonAddMission.Name" xml:space="preserve">
+    <value>buttonAddMission</value>
+  </data>
+  <data name="&gt;&gt;buttonAddMission.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonAddMission.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;buttonAddMission.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -157,7 +184,7 @@
     <value>splitContainer1.Panel1</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="MissionList.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft YaHei UI, 10pt</value>
@@ -184,7 +211,7 @@
     <value>splitContainer1.Panel1</value>
   </data>
   <data name="&gt;&gt;MissionList.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">
     <value>splitContainer1.Panel1</value>
@@ -9281,7 +9308,7 @@
 </value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>BoardOptimizer</value>
+    <value>Board Optimizer</value>
   </data>
   <data name="&gt;&gt;MainNotifyIcon.Name" xml:space="preserve">
     <value>MainNotifyIcon</value>
