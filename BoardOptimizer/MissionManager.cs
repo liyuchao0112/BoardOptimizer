@@ -17,6 +17,7 @@ namespace BoardOptimizer
 		public MissionManager(Mission[] missions)
 		{
 			this.missions = missions;
+
 		}
 	}
 }

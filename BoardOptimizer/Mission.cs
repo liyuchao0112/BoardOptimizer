@@ -10,10 +10,10 @@ namespace BoardOptimizer
 	{
 		public string name;
 		public int id;
-		public string[,] instructions;
+		public string[] Actions;
 		public bool is_enabled;
-		public string start_time;
-		public enum status { Success, Fail, Running, Stopped};
+		public string Triggertime;
+		public enum status {Success, Fail, Running, Stopped};
 		public status st;
 	}
 }

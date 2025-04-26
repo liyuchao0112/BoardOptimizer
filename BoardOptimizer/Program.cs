@@ -11,7 +11,9 @@ namespace BoardOptimizer
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new MainForm());
+            MainForm MainFormActive = new MainForm();
+            Application.Run(MainFormActive);
+
 		}
     }
 }

@@ -123,16 +123,23 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+    <value>4, 4</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitContainer1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="buttonAddMission.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft YaHei UI, 12pt</value>
   </data>
   <data name="buttonAddMission.Location" type="System.Drawing.Point, System.Drawing">
-    <value>231, 3</value>
+    <value>296, 0</value>
+  </data>
+  <data name="buttonAddMission.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="buttonAddMission.Size" type="System.Drawing.Size, System.Drawing">
-    <value>26, 26</value>
+    <value>33, 31</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="buttonAddMission.TabIndex" type="System.Int32, mscorlib">
@@ -163,10 +170,13 @@
     <value>NoControl</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 6</value>
+    <value>4, 7</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 20</value>
+    <value>78, 23</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -190,13 +200,16 @@
     <value>Microsoft YaHei UI, 10pt</value>
   </data>
   <data name="MissionList.ItemHeight" type="System.Int32, mscorlib">
-    <value>19</value>
+    <value>23</value>
   </data>
   <data name="MissionList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 29</value>
+    <value>4, 34</value>
+  </data>
+  <data name="MissionList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="MissionList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>254, 384</value>
+    <value>325, 441</value>
   </data>
   <data name="MissionList.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -229,10 +242,13 @@
     <value>True</value>
   </data>
   <data name="checkBox_regular.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 53</value>
+    <value>8, 62</value>
+  </data>
+  <data name="checkBox_regular.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="checkBox_regular.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 24</value>
+    <value>100, 27</value>
   </data>
   <data name="checkBox_regular.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -256,10 +272,13 @@
     <value>True</value>
   </data>
   <data name="checkBox_enabled.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 23</value>
+    <value>8, 27</value>
+  </data>
+  <data name="checkBox_enabled.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="checkBox_enabled.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 24</value>
+    <value>66, 27</value>
   </data>
   <data name="checkBox_enabled.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -283,10 +302,16 @@
     <value>Microsoft YaHei UI, 10pt</value>
   </data>
   <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 0</value>
+    <value>4, 0</value>
+  </data>
+  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>517, 414</value>
+    <value>665, 487</value>
   </data>
   <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -319,10 +344,13 @@
     <value>1</value>
   </data>
   <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>786, 414</value>
+    <value>1013, 488</value>
   </data>
   <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
-    <value>262</value>
+    <value>337</value>
+  </data>
+  <data name="splitContainer1.SplitterWidth" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
   <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -340,14 +368,16 @@
     <value>0</value>
   </data>
   <data name="MissionPage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
+    <value>4, 29</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="MissionPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
   <data name="MissionPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="MissionPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>792, 420</value>
+    <value>1021, 496</value>
   </data>
   <data name="MissionPage.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -370,8 +400,11 @@
   <data name="MenuTabControl.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="MenuTabControl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
   <data name="MenuTabControl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>800, 450</value>
+    <value>1029, 529</value>
   </data>
   <data name="MenuTabControl.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -395,13 +428,13 @@
     <value>161, 17</value>
   </metadata>
   <data name="ToolStripMenuItem_exit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 22</value>
+    <value>108, 24</value>
   </data>
   <data name="ToolStripMenuItem_exit.Text" xml:space="preserve">
     <value>退出</value>
   </data>
   <data name="MainNotifyContextMenuStip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>101, 26</value>
+    <value>109, 28</value>
   </data>
   <data name="&gt;&gt;MainNotifyContextMenuStip.Name" xml:space="preserve">
     <value>MainNotifyContextMenuStip</value>
@@ -4859,10 +4892,10 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 17</value>
+    <value>9, 20</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>800, 450</value>
+    <value>1029, 529</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -9306,6 +9339,9 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
 </value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Board Optimizer</value>
